@@ -1,0 +1,16 @@
+{
+  "name": "curriculum-vitae",
+  "version": "1.0.0",
+  "description": "My personal resume website.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx @11ty/eleventy --config=scripts/.eleventy.js",
+    "serve": "npx @11ty/eleventy --config=scripts/.eleventy.js --serve"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
